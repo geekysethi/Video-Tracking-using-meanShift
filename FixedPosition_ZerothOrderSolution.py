@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 
-for i in range(1, 40):
+for i in range(1, 70):
     filename = str(i)
     if len(filename)==1:
-        filename = '00' + filename + '.png'
+        filename = '00' + filename + '.jpg'
     if len(filename) == 2:
         filename = '0' + filename + '.png'
     if len(filename) == 3:
