@@ -47,9 +47,9 @@ def RunInstance(directory = None, r = 90,h = 38,c = 282,w = 26):
         cv2.destroyAllWindows()
 
 def RunCycle():
-    for r in range(90, 91, 1):
+    for r in range(93, 91, 1):
         for h in range(34, 44, 2):
-            for c in range(282, 283, 1):
+            for c in range(300, 283, 1):
                 for w in range(22, 36, 2):
                     directory = 'RGB r' + str(r) + ' h' + str(h) + ' c' + str(c) + ' w' + str(w)
                     RunInstance(directory, r, h, c, w)
